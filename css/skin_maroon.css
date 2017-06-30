@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: #61122f;
+  color: white;
+}
+
+#header-nav, #call-btn > a{
+  background-color: #f6b319;
+}
+#nav-list a:hover{
+  background-color: white;
+}
+#nav-list a, #call-btn > a{  
+  color: #61122f;
+}
+.footer{
+  background-color: #222;
+}
+
+#call-btn > a, .container .jumbotron img{
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+#tigers, #cats, #map {
+  border: 2px solid #3F0C1F;
+}
+
+#tigers span, #cats span, #map span{
+  background-color: black;
+  color: white;
+}
+
+.navbar-brand h1{
+  font-family: 'Lora', serif;
+}
+
+.navbar-brand span{
+  font-family: 'Lobster', serif;
+}
