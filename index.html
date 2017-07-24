@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatile" content="IE=edge, chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tiger and Cat</title>
+  <script src = "js/ajaxUtils.js"></script> 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/skin_maroon.css">
 
 </head>
 <body>
@@ -16,12 +16,12 @@
     <div class="container">
 
       <div class="navbar-header">
-        <a href="index.html" class="pull-left visible-md visible-lg">
+        <a class="pull-left visible-md visible-lg">
           <div id="logo" alt="logo_image"></div>
         </a>
         
         <div class="navbar-brand">
-          <a href="index.html">
+          <a>
             <h1>Tiger & Cat</h1>
           </a>
           <p>
@@ -42,31 +42,31 @@
       <div id="collapsable-nav" class="collapse navbar-collapse">
         <ul id="nav-list" class="nav navbar-nav navbar-right">
           <li class="active">
-            <a href="index.html">
+            <a href = "#" id = "menu-homepage">
               <span class="glyphicon glyphicon-home"></span>
               <br class="hidden-xs">
-              Home
+              home&nbsp;
             </a>
           </li>
           <li>
-            <a href="tigers.html">
+            <a href = "#" id = "menu-tigers">
               <span class="glyphicon glyphicon-fire"></span>
               <br class="hidden-xs">
-              Tigers
+              tigers&nbsp;
             </a>
           </li>
           <li>
-            <a href="cats.html">
+            <a href = "#" id = "menu-cats">
               <span class="glyphicon glyphicon-heart"></span>
               <br class="hidden-xs">
-              Cats
+              cats&nbsp;&nbsp;&nbsp;&nbsp;
             </a>
           </li>
           <li>
-            <a href="others.html">
+            <a href = "#" id = "menu-others">
               <span class="glyphicon glyphicon-star"></span>
               <br class="hidden-xs">
-              Others
+              others
             </a>
           </li>
         </ul>
@@ -74,36 +74,8 @@
     </div>   
   </nav>
 
-  <div class="container" id="main-content">
-    <div class="jumbotron">
-      <img src="images/background_xs.jpg" alt="Picture of cat and tiger" class="img-responsive visible-xs">
-    </div>
-
-    <div id="home-tiles" class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="tigers.html">
-          <div id="tigers">
-            <span>tigers</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="cats.html">
-          <div id="cats">
-            <span>cats</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <a href="https://www.google.co.in/maps/place/360+Bergen+Ave,+Kearny,+NJ+07032,+USA/@40.7553594,-74.1419363,17z/data=!4m13!1m7!3m6!1s0x89c25415cdd089f9:0xeb9c34f67302f7ea!2s360+Bergen+Ave,+Kearny,+NJ+07032,+USA!3b1!8m2!3d40.7553339!4d-74.1419518!3m4!1s0x89c25415cdd089f9:0xeb9c34f67302f7ea!8m2!3d40.7553339!4d-74.1419518" target="_blank">
-          <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3030287147103!2d-74.14193633598701!3d40.75535937471388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25415cdd089f9%3A0xeb9c34f67302f7ea!2s360+Bergen+Ave%2C+Kearny%2C+NJ+07032%2C+USA!5e0!3m2!1sen!2sin!4v1498702649181" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <span>map</span>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
+  <div class="container" id="main-content"></div>
+    
 
   <footer class="footer">
     <div class="container">

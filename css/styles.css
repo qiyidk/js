@@ -131,7 +131,7 @@ body{
 @media (min-width: 1200px) {
   /*background*/
   .container .jumbotron{
-    background-image: url('../images/background_lg.jpg');
+    background-image: url('../images/homepage/background_lg.jpg');
     background-size: cover;
     height: 800px;
   }
@@ -151,7 +151,7 @@ body{
 
   /*background*/
   .container .jumbotron{
-    background-image: url('../images/background_lg.jpg');
+    background-image: url('../images/homepage/background_lg.jpg');
     background-size: cover;
     height: 600px;
   }
@@ -161,7 +161,7 @@ body{
 @media (min-width: 768px) and (max-width: 991px) {
   /*background*/
   .container .jumbotron{
-    background-image: url('../images/background_sm.jpg');
+    background-image: url('../images/homepage/background_sm.jpg');
     background-size: cover;
     height: 450px;
   }
@@ -182,9 +182,7 @@ body{
   }
 
   #nav-list a{
-    float: right;
-    clear: right;
-    width: 65%;
+    text-align: center;
   }
   /* HEADER END*/
 
